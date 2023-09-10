@@ -15,11 +15,11 @@ To run the API locally, follow these steps:
 - MongoDB server accessible (update the .env file with the correct MongoDB URI)
 
 ### Get dependencies
-You need to get all the depdndencies before running the API.Navigate to the root of the project and run "go get"
+You need to get all the depdndencies before running the API.Navigate to the root of the project and run ```go get```
 
 ## Running the API
 - Navigate to the api folder: cd cmd/api
-- Run the api using thie follwoing command: go run .
+- Run the api using thie follwoing command: ```go run .```
 
 ## Folder Structure
 
