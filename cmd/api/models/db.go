@@ -25,7 +25,6 @@ func ConnectToDB() error {
 		log.Fatal("Error loading .env file: ", errr)
 	}
 	mongoURI := os.Getenv("MONGOURI")
-	fmt.Println(mongoURI)
 	clientOptions := options.Client().ApplyURI(mongoURI)
 	var err error
 	client, err = mongo.Connect(context.Background(), clientOptions)
